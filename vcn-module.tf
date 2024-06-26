@@ -15,7 +15,7 @@ module "vcn"{
   # Optional Inputs
   vcn_name = "vcn-module"
   vcn_dns_label = "vcnmodule"
-  vcn_cidrs = ["10.0.2.0/16"]
+  vcn_cidrs = ["10.0.2.0/24"]
   
   create_internet_gateway = true
   create_nat_gateway = true
